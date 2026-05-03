@@ -10,6 +10,7 @@
 ## Files in Project
 
 - `spread_scanner.py` - compares prices on 2 exchanges and prints spread alerts
+- `config.json` - scanner settings (exchanges, symbols, interval, threshold)
 - `requirements.txt` - python dependency list
 - `README.md` - setup and run instructions
 - `.gitignore` - ignores `.venv` and python cache
@@ -34,11 +35,10 @@ python3 spread_scanner.py
 
 ## Next Tasks (Suggested Order)
 
-1. Add `config.json` for symbols, exchanges, interval, and alert threshold
-2. Add CSV logging for each scan result
-3. Include rough fee model to estimate net spread
-4. Add paper-trade simulator (no real orders)
-5. Add risk rules before any live-trading code
+1. Add CSV logging for each scan result
+2. Include rough fee model to estimate net spread
+3. Add paper-trade simulator (no real orders)
+4. Add risk rules before any live-trading code
 
 ## Quick Prompt To Resume Later
 

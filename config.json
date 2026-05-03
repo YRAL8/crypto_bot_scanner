@@ -1,0 +1,7 @@
+{
+  "exchange_a": "binance",
+  "exchange_b": "bybit",
+  "symbols": ["BTC/USDT", "ETH/USDT"],
+  "check_interval_sec": 20,
+  "spread_alert_pct": 0.3
+}
